@@ -2,21 +2,12 @@
 
 ![contract](Images/smart-contract.png)
 
-## Background
+## Objective
 
-Your new startup has created its own Ethereum-compatible blockchain to help connect financial institutions, and the team wants to build smart contracts to automate some company finances to make everyone's lives easier, increase transparency, and to make accounting and auditing practically automatic!
-
-
-## Instructions
+Build smart contracts to automate some company finances to make everyone's lives easier, increase transparency, and to make accounting and auditing practically automatic.
 
 **Level One** is an `AssociateProfitSplitter` contract. This will accept Ether into the contract and divide the Ether evenly among the associate level employees. This will allow the Human Resources department to pay employees quickly and efficiently.
 
-
-### Starting your project
-
-Using [Remix IDE](https://remix.ethereum.org) and create a new contract.
-
-Test the contract, using the [Ganache](https://www.trufflesuite.com/ganache) development chain, and point MetaMask to `localhost:8545`, or replace the port with what you have set in your workspace.
 
 ### Contract requirements
 
@@ -59,17 +50,16 @@ Next, create the following functions:
 
 * Create a fallback function using `function() external payable`, and call the `deposit` function from within it. This will ensure that the logic in `deposit` executes if Ether is sent directly to the contract. This is important to prevent Ether from being locked in the contract since we don't have a `withdraw` function in this use-case.
 
-#### Test the contract
+#### Testing the contract
 
-In the `Deploy` tab in Remix, deploy the contract to your local Ganache chain by connecting to `Injected Web3` and ensuring MetaMask is pointed to `localhost:8545`.
+Contract succesfully deployed using localhost 8545 and metamask confirmation 
+![Remix Testing](screenshots/1b.png)
 
-You will need to fill in the constructor parameters with your designated `employee` addresses.
+Transaction block in ganache
+![Remix Testing](screenshots/ganage.png)
 
-Test the `deposit` function by sending various values. Keep an eye on the `employee` balances as you send different amounts of Ether to the contract and ensure the logic is executing properly.
-
-![Remix Testing](Images/remix-test.png)
-
-
+Testing functionallity of the contract with ETH in local network, sent 25 ETH and it got split in the 3 aacounts selected.
+![Remix Testing](screenshots/25ethin3accountsTestnet.png)
 
 **#Results**
 
