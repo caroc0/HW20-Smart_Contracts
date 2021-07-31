@@ -52,27 +52,39 @@ Next, create the following functions:
 
 #### Testing the contract
 
-Contract succesfully deployed using localhost 8545 and metamask confirmation 
+Contract succesfully deployed using localhost 8545 and metamask confirmation.
+
 ![Remix Testing](screenshots/1b.png)
 
-Transaction block in ganache
+Transaction block in ganache.
+
 ![Remix Testing](screenshots/ganage.png)
 
 Testing functionallity of the contract with ETH in local network, sent 25 ETH and it got split in the 3 aacounts selected.
+
 ![Remix Testing](screenshots/25ethin3accountsTestnet.png)
 
-**#Results**
+---
+**Results**
 
-Contract was deployes using Rinkby network 
+Contract was deployes using Rinkby network.
+
 ##**Contract address: 0x219130D2a4ab80F67e1E6EBb2C991Eb836714903**
-
-
+---
 
 ### Deployed contract
 
+Contract deployed in the Rinkby network with metamask confirmation tab.
+
+![Remix Deployed](screenshots/TransactionrinkbyConf.png)
 
 
-![Remix Deploy](Images/remix-deploy.png)
+Metamask transaction record.
+
+![Remix Deployed](screenshots/metamask contractdeploy.png)
+
+---
+
 
 ## Resources
 
