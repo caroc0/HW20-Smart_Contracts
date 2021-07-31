@@ -49,8 +49,9 @@ Next, create the following functions:
     * We may either have `1` or `2` wei leftover, so transfer the `msg.value - amount * 3` back to `msg.sender`. This will re-multiply the `amount` by 3, then subtract it from the `msg.value` to account for any leftover wei, and send it back to Human Resources.
 
 * Create a fallback function using `function() external payable`, and call the `deposit` function from within it. This will ensure that the logic in `deposit` executes if Ether is sent directly to the contract. This is important to prevent Ether from being locked in the contract since we don't have a `withdraw` function in this use-case.
+--- 
 
-#### Testing the contract
+# Testing the contract
 
 Contract succesfully deployed using localhost 8545 and metamask confirmation.
 
@@ -69,7 +70,7 @@ Testing functionallity of the contract with ETH in local network, sent 25 ETH an
 
 Contract was deployes using Rinkby network.
 
-##**Contract address: 0x219130D2a4ab80F67e1E6EBb2C991Eb836714903**
+**Contract address: 0x219130D2a4ab80F67e1E6EBb2C991Eb836714903**
 ---
 
 ### Deployed contract
