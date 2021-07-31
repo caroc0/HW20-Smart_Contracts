@@ -68,19 +68,19 @@ Testing functionallity of the contract with ETH in local network, sent 25 ETH an
 ---
 **Results**
 
-Contract was deployes using Rinkby network.
+Contract was deployes using Rinkeby network.
 
 **Contract address: 0x219130D2a4ab80F67e1E6EBb2C991Eb836714903**
 ---
 
 ### Deployed contract
 
-Contract deployed in the Rinkby network with metamask confirmation tab.
+Contract deployed in the Rinkeby network with MetaMask confirmation tab.
 
 ![Remix Deployed](screenshots/TransactionrinkbyConf.png)
 
 
-Metamask transaction record.
+MetaMask transaction record.
 
 ![Remix Deployed](screenshots/metamask contractdeploy.png)
 
